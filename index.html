@@ -1,0 +1,324 @@
+<html lang="en">
+        <title>portfolio</title>
+    </head>
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1">
+<head>
+    <style>
+       
+        #n{        
+            z-index: 9999;            
+            background: black;
+            height: 160px;
+            position: fixed;
+            width: 100vw;
+            border: 2px solid white;            
+            display: flex;
+            align-items: center;
+            padding: 0px 25px;
+            left:0px;
+            }
+                    
+        a{                    
+            border:2px solid transparent;        
+            border-radius:30px;
+            text-decoration:none;
+            font-size:35px;
+            padding:10px; 
+            color:rgb(0,400,200);
+            margin-left:40px;
+        }
+        a:hover{
+            box-shadow:0px 0px 3px 3px white;
+        }
+        #nav1{
+            margin-left:70px;
+        }
+        img{
+            border:3px ridge black;
+            border-radius:2000px;
+            margin-top:50%;
+            margin-left:25%;
+            animation:image 1s linear;
+            box-shadow:0px 0px 30px 5px rgb(0,400,200);
+        }
+        @keyframes image{
+            0%{
+                transform:rotatey(90deg);
+            }
+            100%{
+                transform:rotatey(360deg);
+                
+            }
+        }
+        body{
+        background:rgb(0,1,12);
+        }
+        #im{
+            font-size:60px;
+            margin-top:10%;
+            color:white;
+            animation:iam 1s linear;
+            margin-left:30%;
+        }
+        @keyframes iam{
+               from{
+                   margin-left:-40%;
+               }
+              to{
+                   margin-left:30%;
+               }
+        }
+        h2{
+            font-weight:bold;
+            margin-top:10%;
+            color:white;   
+            font-size:70px; 
+            text-transform:uppercase;
+            margin-left:20%;
+            animation:hhh 0.8s linear;
+        }
+        @keyframes hhh{
+            from{
+                color:white;
+                margin-left:40%;
+            }
+            to{
+                color:white;
+                margin-left:20%;
+            }
+        }
+        #po{
+            color:white;
+            font-size:45px;
+            font-family:bold;
+            margin-top:5%;
+            margin-left:2%;
+        }
+        #b{
+            //text-align:center;
+            font-size:50px;
+            color:white;
+            margin-left:15%;
+            font-family:monospace;
+            white-space: nowrap;
+            overflow: hidden;
+            border-right: 4px solid white;
+            animation:typing 7s steps(20,end) infinite ;
+            
+        }
+        @keyframes typing{
+            0%{
+                width:0px;
+            }
+            50%{
+                width:690px;
+            }
+            100%{
+                width:0px;
+            }
+        }     
+        #ab{
+            color:white;
+            font-size:60px;
+            position:relative;
+            left:20px;
+        }
+           #about{
+           padding-top:250px;
+            margin-top: 800px;
+        }
+        #sk{
+            color:white;
+            font-size:60px;
+            position:relative;
+            left:20px;
+        }
+        html{
+            scroll-behavior:smooth;
+        }
+        .skills{
+           padding-top:250px;
+           margin-top: 800px;
+        }
+        #cont{
+            border:2px solid white;
+            padding:20px;
+            align-items:center;
+        }
+       #con{
+           color:white;
+            font-size:60px;
+            position:relative;
+       }
+       #me{
+          padding-top:600px;
+          margin-top: 800px;
+       }
+       input, textarea,button {
+       font-size: 40px;
+       background-color:white;
+       position:relative;
+       top:70%;
+      }
+      input{
+          padding-bottom:30px;
+      }
+      button{
+          padding-right:435px;
+          text-align:center;
+      }
+        form{
+          padding-bottom:700px;
+            position:relative;
+            top:160px;
+        }
+        .sksp{
+            margin-top:20%;
+        }
+.skill-bar {
+  max-width: 700px;
+  margin: 0 auto;
+}
+.skill {
+  margin-bottom: 70px;
+  color:white;
+}
+
+.skill span {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size:30px;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  height: 30px;
+}
+.fill {
+  height: 100%;
+  line-height: 20px;
+  color: white;
+  text-align: right;
+  padding-right: 10px;
+  border-radius: 20px 0 0 20px;
+  font-size: 14px;
+  animation:fill 2s linear;
+}
+@keyframes fill{
+   from{
+       width:0%;
+   }
+   to{
+       width:90%;
+   }
+}
+@media screen and (min-width:768px){
+        *{
+            background-color:black;
+        }
+    }
+    </style>
+    <body>
+        <div id="n">
+        <p id="po">Portfolio</p>
+        <div id="nav1">
+        <a href="#u">Home</a>
+        <a href="#about">About</a>
+        <a href="#skil">Skills</a>
+        <a href="#c">Contact</a>
+        </div>
+        </div>
+        <div id="u">
+        <img src="content://media/external/images/media/1000356790"height="500vh">
+        <h1 id="im"><span style="color:rgb(0,400,200)">Hello,</span> it's Me</h1>
+        <h2>TADEPALLI VICKY</h2>
+        <h2 id="b">And Im A&nbsp;<span style="color:rgb(0,400,200)">Web Developer</span></h2>
+        </div><br><br>
+        <div id="about">
+            <h1 id="ab">About &nbsp;<span style="color:rgb(0,400,200)">Me</span></h1>
+            <p style="color:white;font-size:50px;position:relative;left:60px;">
+                My name is vicky I am a developer, As a developer I am a problem solver and creator who brings ideas to life using code.<br>My skills in HTML, CSS, and JavaScript allow me to build interactive and visually appealing websites, like my portfolio.<br>I have the ability to structure content, style designs, and add functionality to create seamless user experiences.
+
+Beyond coding, I am also a learner—constantly improving my skills, exploring new technologies, and refining my projects.<br><br>Whether it's debugging an issue, optimizing performance, or making a site responsive, I tackle challenges with creativity and persistence.<br>
+
+My portfolio is more than just a project; it’s a representation of my journey as a developer.<br> It showcases my abilities, my passion for coding, and my commitment to growing in the tech world.<br>I will keep building, experimenting, and pushing my limits
+            </p>
+        </div>
+          <div class="skills" id="skil">
+            <h1 id="sk">My <span style="color:rgb(0,400,200)">Skills</span></h1>
+            <div class="sksp">
+            <div id="skil">
+            <div class="skill-bar">
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width:90%;background-color:#4caf50;color:black;">90%     
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill"><span>CSS</span>    
+                <div class="progress-bar">
+                    <div class="fill" style="width:85%;background-color:orange;color:black">85%  
+                    </div>
+                </div>
+                </div>
+        </div>
+        <div class="skill-bar">
+            <div class="skill">
+                <span>Java Script</span>
+                <div class="progress-bar">
+                    <div class="fill" style="width:70%;background-color:rgb(0,400,300);color:black;">70%</div>
+                </div>
+                </div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill">
+                    <span>C-Language </span>
+                    <div class="progress-bar">
+                        <div class="fill" style="width:80%;background-color:yellow;color:black">80%  
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="skill-bar">
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="progress-bar">
+                        <div class="fill"style="width:50%;background-color:rgb(200,100,150);color:black">Learning
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            </div>
+            </div>
+            <div id="me">
+            <h1 id="con">Contact <span style="color:rgb(0,400,200)">Me</span></h1>
+            <div id="cont">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <div id="c">
+ <input type="hidden" name="access_key" value="4e482bca-53b4-4d3b-8017-231c7bb30d49"><br><br>
+            <input type="username"id="name"name="name"placeholder="Your Name"><br><br><br><br><br><br><br>
+            <input type="email"id="mail"name="email"placeholder="Your Email@">
+            <br><br><br><br><br><br><br>
+            <input type="text"id="text"name="Subject"placeholder="Subject"><br><br><br><br><br><br><br>
+           <textarea id="input" rows="6" cols="23"name="message"placeholder="Text here...."></textarea><br><br><br><br><br>
+           <button>submit</button>
+           </div>
+           </form>
+        </div>
+        </div>
+        <script>
+            
+        </script>
+    </body>
+</html>
