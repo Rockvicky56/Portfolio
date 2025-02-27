@@ -1,5 +1,5 @@
 <html lang="en">
-        <title>Vicky's portfolio</title>
+        <title>portfolio</title>
     </head>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1">
 <head>
@@ -10,7 +10,7 @@
             background: black;
             height: 160px;
             position: fixed;
-            width: 100vw;
+            width: 110vw;
             border: 2px solid white;            
             display: flex;
             align-items: center;
@@ -18,7 +18,7 @@
             left:0px;
             }
                     
-        a{                    
+        .menu{                    
             border:2px solid transparent;        
             border-radius:30px;
             text-decoration:none;
@@ -30,10 +30,36 @@
         a:hover{
             box-shadow:0px 0px 3px 3px white;
         }
+        #insta{
+            position:relative;
+            top:90px;
+            left:50px;
+            color:red;
+        }
+        #instagram{
+            height:5vh;
+            width:8vw;
+            border:2px solid black;
+            border-radius:90%;
+            box-shadow:0px 0px 10px 4px rgb(0,400,200);
+        }
+        #link{
+            position:relative;
+            top:90px;
+            left:100px;
+            color:red;
+        }
+        #linkdin{
+            height:5vh;
+            width:8vw;
+            border:2px solid black;
+            border-radius:90%;
+            box-shadow:0px 0px 10px 4px rgb(0,400,200);
+        }
         #nav1{
             margin-left:70px;
         }
-        img{
+        #myimage{
             border:3px ridge black;
             border-radius:2000px;
             margin-top:50%;
@@ -121,7 +147,6 @@
             color:white;
             font-size:60px;
             position:relative;
-            left:20px;
         }
            #about{
            padding-top:250px;
@@ -136,14 +161,13 @@
         html{
             scroll-behavior:smooth;
         }
-        .skills{
-           padding-top:250px;
-           margin-top: 800px;
+        .skills {
+          padding-top:250px;
+          margin-top:800px;
         }
         #cont{
             border:2px solid white;
             padding:20px;
-            align-items:center;
         }
        #con{
            color:white;
@@ -151,26 +175,33 @@
             position:relative;
        }
        #me{
-          padding-top:600px;
+          padding-top:250px;
           margin-top: 800px;
        }
        input, textarea,button {
-       font-size: 40px;
-       background-color:white;
-       position:relative;
-       top:70%;
+       font-size:40px;
+       background-color:transparent;
+       color:white;
+       box-shadow:0px 0px 10px 10px white;
+      }
+      input,textarea,button:hover{
+          background-color:white;
+          color:black;
+          border:transparent;
+          box-shadow:0px 0px 7px 7px rgb(0,400,200);
       }
       input{
           padding-bottom:30px;
       }
       button{
-          padding-right:435px;
+          padding-right:217px;
+          padding-left:217px;
           text-align:center;
       }
         form{
-          padding-bottom:700px;
-            position:relative;
-            top:160px;
+          padding-bottom:300px;
+          margin-top:150px;
+          margin-left:150px;
         }
         .sksp{
             margin-top:20%;
@@ -223,33 +254,43 @@
         }
     }
     </style>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <body>
         <div id="n">
         <p id="po">Portfolio</p>
         <div id="nav1">
-        <a href="#u">Home</a>
-        <a href="#about">About</a>
-        <a href="#skil">Skills</a>
-        <a href="#c">Contact</a>
+        <a href="#u"class="menu">Home</a>
+        <a href="#about"class="menu">About</a>
+        <a href="#skil"class="menu">Skills</a>
+        <a href="#c"class="menu">Contact</a>
         </div>
         </div>
         <div id="u">
-        <img src="IMG_20250109_200513.jpg"height="500vh">
+        <img src="content://media/external/images/media/1000356790"height="500vh"id="myimage">
         <h1 id="im"><span style="color:rgb(0,400,200)">Hello,</span> it's Me</h1>
         <h2>TADEPALLI VICKY</h2>
-        <h2 id="b">And Im A&nbsp;<span style="color:rgb(0,400,200)">Web Developer</span></h2>
+        <h2 id="b">And I&quot;m A&nbsp;<span style="color:rgb(0,400,200)">Web Developer</span></h2>
+        <a href="https://www.instagram.com/call_me_vikky_rock?igsh=Ym1l#BtdzJ2MnBs"id="insta"><img src="content://media/external/images/media/1000373228"id="instagram"></a>
+        <a href="https://www.linkedin.com/in/tadepalli-v-555826345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"id="link"><img src="content://media/external/images/media/1000373230"id="linkdin"></a>
         </div><br><br>
-        <div id="about">
+        <div id="about"data-aos="fade-up"data-aos-duration="1000"data-aos-delay="500">
             <h1 id="ab">About &nbsp;<span style="color:rgb(0,400,200)">Me</span></h1>
-            <p style="color:white;font-size:50px;position:relative;left:60px;">
-                My name is vicky I am a developer, As a developer I am a problem solver and creator who brings ideas to life using code.<br>My skills in HTML, CSS, and JavaScript allow me to build interactive and visually appealing websites, like my portfolio.<br>I have the ability to structure content, style designs, and add functionality to create seamless user experiences.
-
-Beyond coding, I am also a learner—constantly improving my skills, exploring new technologies, and refining my projects.<br><br>Whether it's debugging an issue, optimizing performance, or making a site responsive, I tackle challenges with creativity and persistence.<br>
-
-My portfolio is more than just a project; it’s a representation of my journey as a developer.<br> It showcases my abilities, my passion for coding, and my commitment to growing in the tech world.<br>I will keep building, experimenting, and pushing my limits
-            </p>
-        </div>
-          <div class="skills" id="skil">
+            </div>
+            <div style="color:white;font-size:50px;position:relative;left:10px;">        
+<div data-aos="fade-right"data-aos-duration="1000"data-aos-delay="500">→  As a developer I am a problem solver and  creator who brings ideas to life using code.</div><br>
+<div data-aos="fade-left"data-aos-duration="1000"data-aos-delay="500">→ skills in HTML, CSS,and JavaScript allow me to build interactive and visually appealing websites, like
+myportfolio.</div><br>
+<div data-aos="fade-right"data-aos-duration="1000"data-aos-delay="500">→ I have the ability to structure content, style designs, and addfunctionality to create seamless userexperiences.</div><br>
+<div data-aos="fade-left"data-aos-duration="1000"data-aos-delay="500">→ Beyond coding, I am also a learner—constantly improving myskills, exploring new technologies, and refining my   projects.</div><br>
+<div data-aos="fade-right"data-aos-duration="1000"data-aos-delay="500">→ Whether it's debugging an issue,optimizing performance, or making a site responsive, I tackle challenges with 
+creativity and persistence.</div><br>
+<div data-aos="fade-left"data-aos-duration="1000"data-aos-delay="500">→ My portfolio is more than just a project it’s a representation of my journey as a developer.</div><br>
+<div data-aos="fade-right"data-aos-duration="1000"data-aos-delay="500">→ It showcases my abilities, my passion for coding, and my
+commitment to growing in the tech world.</div><br>
+<div data-aos="fade-left"data-aos-duration="1000"data-aos-delay="500">→ I will keep building, experimenting, and pushing my limits</div>
+            </div>
+          <div class="skills" id="skills">
             <h1 id="sk">My <span style="color:rgb(0,400,200)">Skills</span></h1>
             <div class="sksp">
             <div id="skil">
@@ -306,19 +347,23 @@ My portfolio is more than just a project; it’s a representation of my journey 
             <div id="cont">
                 <form action="https://api.web3forms.com/submit" method="POST">
                     <div id="c">
- <input type="hidden" name="access_key" value="4e482bca-53b4-4d3b-8017-231c7bb30d49"><br><br>
-            <input type="username"id="name"name="name"placeholder="Your Name" required><br><br><br><br><br><br><br>
-            <input type="email"id="mail"name="email"placeholder="Your Email@" required>
+ <input type="hidden" name="access_key" value="4e482bca-53b4-4d3b-8017-231c7bb30d49">
+            <input type="username"required id="name"name="name"placeholder="Your Name"><br><br><br><br><br><br><br>
+            <input type="email" required id="mail"name="email"placeholder="Your Email@">
             <br><br><br><br><br><br><br>
-            <input type="text"id="text"name="Subject"placeholder="Subject" required><br><br><br><br><br><br><br>
-           <textarea id="input" rows="6" cols="23"name="message"placeholder="Text here...."></textarea><br><br><br><br><br>
-           <button>submit</button>
+            <input type="text"id="text" required name="Subject"placeholder="Subject"><br><br><br><br><br><br><br>
+           <textarea id="input" required rows="6" cols="23"name="message"placeholder="Text here...."></textarea><br><br><br><br><br><br><br>
+           <button onclick="sub()">submit</button>
            </div>
            </form>
         </div>
         </div>
         <script>
-            
+            function sub()
+            {
+                confirm("are you sure to submit")
+            }
+            AOS.init();
         </script>
     </body>
 </html>
