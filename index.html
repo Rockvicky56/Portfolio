@@ -1,4 +1,4 @@
-<html lang="en">
+    <html lang="en">
         <title>portfolio</title>
     </head>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -158,12 +158,12 @@
             position:relative;
             left:20px;
         }
-        html{
+      html{
             scroll-behavior:smooth;
         }
         .skills {
-          padding-top:250px;
-          margin-top:800px;
+          padding-top:50px;
+          margin-top:420px;
         }
         #cont{
             border:2px solid white;
@@ -174,7 +174,7 @@
             font-size:60px;
             position:relative;
        }
-       #me{
+       .me{
           padding-top:250px;
           margin-top: 800px;
        }
@@ -184,7 +184,19 @@
        color:white;
        box-shadow:0px 0px 10px 10px white;
       }
-      input,textarea,button:hover{
+      button:hover{
+          background-color:white;
+          color:black;
+          border:transparent;
+          box-shadow:0px 0px 7px 7px rgb(0,400,200);
+      }
+      input:hover{
+          background-color:white;
+          color:black;
+          border:transparent;
+          box-shadow:0px 0px 7px 7px rgb(0,400,200);
+      }
+      textarea:hover{
           background-color:white;
           color:black;
           border:transparent;
@@ -251,7 +263,7 @@
 @media screen and (min-width:768px){
         *{
             background-color:black;
-        }
+        }      
     }
     </style>
 <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -267,34 +279,35 @@
         </div>
         </div>
         <div id="u">
-        <img src="IMG_20250109_200513.jpg
-"height="500vh"id="myimage">
+        <img src="content://media/external/images/media/1000356790"height="500vh"id="myimage">
         <h1 id="im"><span style="color:rgb(0,400,200)">Hello,</span> it's Me</h1>
         <h2>TADEPALLI VICKY</h2>
         <h2 id="b">And I&quot;m A&nbsp;<span style="color:rgb(0,400,200)">Web Developer</span></h2>
-        <a href="https://www.instagram.com/call_me_vikky_rock?igsh=Ym1l#BtdzJ2MnBs"id="insta"><img src="IMG_20250220_225339.jpg"id="instagram"></a>
+        <a href="https://www.instagram.com/call_me_vikky_rock?igsh=Ym1l#BtdzJ2MnBs"id="insta"><img src="content://media/external/images/media/1000373228"id="instagram"></a>
         <a href="https://www.linkedin.com/in/tadepalli-v-555826345?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"id="link"><img src="content://media/external/images/media/1000373230"id="linkdin"></a>
         </div><br><br>
         <div id="about"data-aos="fade-up"data-aos-duration="1000"data-aos-delay="500">
             <h1 id="ab">About &nbsp;<span style="color:rgb(0,400,200)">Me</span></h1>
             </div>
-            <div style="color:white;font-size:50px;position:relative;left:10px;">        
-<div data-aos="fade-right"data-aos-duration="1000"data-aos-delay="500">→  As a developer I am a problem solver and  creator who brings ideas to life using code.</div><br>
-<div data-aos="fade-left"data-aos-duration="1000"data-aos-delay="500">→ skills in HTML, CSS,and JavaScript allow me to build interactive and visually appealing websites, like
-myportfolio.</div><br>
-<div data-aos="fade-right"data-aos-duration="1000"data-aos-delay="500">→ I have the ability to structure content, style designs, and addfunctionality to create seamless userexperiences.</div><br>
-<div data-aos="fade-left"data-aos-duration="1000"data-aos-delay="500">→ Beyond coding, I am also a learner—constantly improving myskills, exploring new technologies, and refining my   projects.</div><br>
-<div data-aos="fade-right"data-aos-duration="1000"data-aos-delay="500">→ Whether it's debugging an issue,optimizing performance, or making a site responsive, I tackle challenges with 
-creativity and persistence.</div><br>
-<div data-aos="fade-left"data-aos-duration="1000"data-aos-delay="500">→ My portfolio is more than just a project it’s a representation of my journey as a developer.</div><br>
-<div data-aos="fade-right"data-aos-duration="1000"data-aos-delay="500">→ It showcases my abilities, my passion for coding, and my
-commitment to growing in the tech world.</div><br>
-<div data-aos="fade-left"data-aos-duration="1000"data-aos-delay="500">→ I will keep building, experimenting, and pushing my limits</div>
-            </div>
-          <div class="skills" id="skills">
-            <h1 id="sk">My <span style="color:rgb(0,400,200)">Skills</span></h1>
+            <div style="color:white;font-size:50px;position:relative;left:10px;">                     
+→  As a developer I am a problem solver and  creator who brings ideas to life using code.<br>
+→ skills in HTML, CSS,and JavaScript allow me to build interactive and visually appealing websites, like
+myportfolio.<br>
+→ I have the ability to structure content, style designs, and addfunctionality to create seamless userexperiences.<br>
+→ Beyond coding, I am also a learner—constantly improving myskills, exploring new technologies, and refining my   projects.<br>
+→ Whether it's debugging an issue,optimizing performance, or making a site responsive, I tackle challenges with 
+creativity and persistence.<br>
+→ My portfolio is more than just a project it’s a representation of my journey as a developer.<br>
+→ It showcases my abilities, my passion for coding, and my
+commitment to growing in the tech world.</div>br>
+→ I will keep building, experimenting, and pushig my l
+imit
+<p id="skil"></p>
+</div>
+          <div class="skills">
+            <h1 id="sk">My <span style="color:rgb(0,400,200)">Skills</span><h1>
             <div class="sksp">
-            <div id="skil">
+            <div>
             <div class="skill-bar">
                 <div class="skill">
                     <span>HTML</span>
@@ -343,11 +356,14 @@ commitment to growing in the tech world.</div><br>
             </div>
             </div>
             </div>
-            <div id="me">
+       
+            <div class="me" id="c">
+            
             <h1 id="con">Contact <span style="color:rgb(0,400,200)">Me</span></h1>
             <div id="cont">
+                
                 <form action="https://api.web3forms.com/submit" method="POST">
-                    <div id="c">
+                    <div >
  <input type="hidden" name="access_key" value="4e482bca-53b4-4d3b-8017-231c7bb30d49">
             <input type="username"required id="name"name="name"placeholder="Your Name"><br><br><br><br><br><br><br>
             <input type="email" required id="mail"name="email"placeholder="Your Email@">
@@ -362,7 +378,17 @@ commitment to growing in the tech world.</div><br>
         <script>
             function sub()
             {
+            const a=document.getElementById("name");
+            const b=document.getElementById("mail");
+            const c=document.getElementById("text");
+            const d=document.getElementById("input");
+            if(a==b==c==d=="")
+            {
+                alert("Fill the All Columns Given Below")
+            }
+            else{
                 confirm("are you sure to submit")
+            }
             }
             AOS.init();
         </script>
